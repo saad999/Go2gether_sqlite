@@ -61,6 +61,8 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
         <EditText
+            android:maxLines="1"
+            android:inputType="text"
             android:id="@+id/editText"
             android:layout_width="300dp"
             android:layout_height="51dp"
@@ -90,6 +92,8 @@
             app:layout_constraintTop_toBottomOf="@+id/editText" />
 
         <EditText
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
             android:id="@+id/editText2"
             android:layout_width="300dp"
             android:layout_height="50dp"
@@ -118,6 +122,8 @@
             app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
         <EditText
+            android:maxLines="1"
+            android:inputType="text"
             android:id="@+id/editText3"
             android:layout_width="130dp"
             android:layout_height="55dp"
@@ -143,6 +149,8 @@
             app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
         <EditText
+            android:maxLines="1"
+            android:inputType="phone"
             android:id="@+id/editText5"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
@@ -167,12 +175,15 @@
             app:layout_constraintTop_toBottomOf="@+id/editText3" />
 
         <EditText
+            android:maxLines="1"
+            android:inputType="text"
+            android:autofillHints="gender"
             android:id="@+id/editText7"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/gender"
             android:gravity="center"
-            android:hint="Male"
+            android:hint="male/female"
             android:paddingBottom="12dp"
             android:textColor="@android:color/white"
             app:layout_constraintStart_toStartOf="@+id/textView20"
@@ -190,13 +201,14 @@
             app:layout_constraintTop_toBottomOf="@+id/editText5" />
 
         <EditText
+            android:maxLines="1"
             android:id="@+id/editText9"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/lock"
             android:gravity="center"
             android:hint="passowrd"
-            android:inputType="textPassword"
+            android:inputType="textWebPassword"
             android:paddingBottom="23dp"
             android:textColor="@android:color/white"
             app:layout_constraintStart_toStartOf="@+id/textView21"
@@ -216,12 +228,12 @@
             app:layout_constraintTop_toBottomOf="@+id/editText9">
 
             <Button
-                android:id="@+id/cancel_text_view"
+                android:id="@+id/btn_cc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="84dp"
                 android:background="@drawable/round_button"
-                android:text="cancel"
+                android:text="View"
                 android:textColor="@color/button_red" />
 
             <Button

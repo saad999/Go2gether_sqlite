@@ -25,11 +25,11 @@ public class SplashActivity extends Activity {
             @Override
             public void run() {
                 try {
-                    Thread.sleep(6000);
+                    Thread.sleep(5000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } finally {
-                    Intent intent = new Intent(SplashActivity.this, UserType.class);
+                    Intent intent = new Intent(SplashActivity.this, RegisterClientActivity.class);
                     startActivity(intent);
                     finish();
                 }

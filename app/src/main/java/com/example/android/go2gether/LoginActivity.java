@@ -23,7 +23,7 @@ public class LoginActivity extends AppCompatActivity {
                 tutorialDriverActivity_2.context.finish();
                 tutorialDriverActivity_3.context.finish();
             } else if (userType.equalsIgnoreCase("client")) {
-                tutorialClientActivity_1.context.finish();
+               // tutorialClientActivity_1.context.finish();
                 tutorialClientActivity_2.context.finish();
                 tutorialClientActivity_3.context.finish();
 
